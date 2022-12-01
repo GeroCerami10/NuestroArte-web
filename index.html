@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
     <title>Nuestro Arte</title>
 </head>
+
 <body>
+    <header class="navbar navbar-expand-lg d-flex text-center header">
+        <div class="container">
+            <img src="./img/logo.png" class="navbar-brand logo" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav navbar-size">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="info">
+            <div class="info__div">
+                <h1 class="info__h1">Nuestro Arte</h1>
+                <h2 class="info__h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt tenetur
+                    reiciendis quo. Blanditiis maiores sed, corporis perspiciatis rem suscipit facilis minima incidunt
+                    laudantium explicabo natus autem quo dicta officiis.</h2>
+            </div>
+        </article>
+
+        <section class="trabajos">
+            <h2 class="trabajos__h2">Algunos de nuestros trabajos:</h2>
+
+            <article id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active rounded ">
+                        <img src="./img/individual1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="./img/individual3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </article>
+
+
+        </section>
+
+
+
+    </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
