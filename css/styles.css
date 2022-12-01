@@ -68,15 +68,24 @@ a{
     font-weight: bolder;
 }
 
-.carrusel__img{
-    width: 100%;
-    height: 250pxpx;
+.trabajos__div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+gap: 30px;
+object-fit: cover ;
 }
 
-.card__p{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    background-color: #b2967d;
-    color: rgba(0, 0, 0, 0.618) ;
+.trabajos__img:hover{
+    transform: scale(1.1);
+    animation-duration: 5s;
+}
+
+.trabajos__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    box-shadow: 2px;
 }
