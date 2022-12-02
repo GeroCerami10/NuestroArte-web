@@ -16,7 +16,7 @@ a{
 /* header */
 
 .header{
-    background-color:#c0b1a0;
+    background-color:white;
 }
 
 .logo{
@@ -32,7 +32,7 @@ a{
 
 .info{
     padding: 5px;
-    background-color:#c0b1a0;
+    background-color:rgba(255, 255, 255, 0.848);
 }
 
 .info__div{
@@ -56,7 +56,7 @@ a{
 
 .trabajos{
     padding-top: 10px;
-    background-color: #b2967d;
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,23 +69,70 @@ a{
 }
 
 .trabajos__div{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 30px;
-gap: 30px;
-object-fit: cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.trabajos__img{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .trabajos__img:hover{
     transform: scale(1.1);
-    animation-duration: 5s;
+    animation-delay: 400ms;
 }
 
-.trabajos__img{
-    width: 250px;
-    height: 250px;
-    border-radius: 6px;
-    box-shadow: 2px;
+/* footer */
+
+footer{
+    background-color: white;
 }
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}  
+
+.footer__h3{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.footer__icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+}
+
+.derechos__div{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.derechos__p{
+    font-size: 10px;
+    color: black;
+}
+
+/* page productos */
+
+/* productos */
+
+
+.ind__img{
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
