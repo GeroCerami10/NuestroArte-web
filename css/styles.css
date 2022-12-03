@@ -12,6 +12,7 @@ ol {
 
 a {
     text-decoration: none;
+    color: gray;
 }
 
 /* header */
@@ -84,10 +85,7 @@ a {
     object-fit: cover;
 }
 
-.trabajos__img:hover {
-    transform: scale(1.1);
-    animation-delay: 400ms;
-}
+
 
 /* footer */
 
@@ -115,15 +113,19 @@ footer {
     text-decoration: none;
 }
 
+
 .derechos__div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     padding: 5px;
 }
 
 .derechos__p {
     font-size: 10px;
     color: black;
+    padding-bottom: 1px;
 }
 
 /* page productos */
@@ -184,9 +186,6 @@ footer {
 .ind__img {
     width: 170px;
     height: 170px;
-}
-
-.ind__img:hover{
-transform: scale(1.1);
+    border-radius: 4px;
 }
 
