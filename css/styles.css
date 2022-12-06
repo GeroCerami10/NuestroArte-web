@@ -189,3 +189,51 @@ footer {
     border-radius: 4px;
 }
 
+.formulario{
+    background-color: #c0c0c0;
+    font-size: 1.6rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario__div{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.formulario__label{
+    font-size: 17px;
+    
+}
+
+.formulario__input{
+    font-size: 20px;
+}
+
+.formulario__input:hover{
+    transform: scale(1.1);
+    animation-duration: 400ms;
+    border-color: #c0c0c0d1;
+}
+
+.formulario__btn{
+    font-size: 15px;
+    border-color:black;
+    background-color:#c0c0c0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+.formulario__btn:hover{
+    transform: scale(1.1);
+    animation-duration: 400ms;
+    border-color: #c0c0c0d1;
+}
+
+
